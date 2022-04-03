@@ -1,18 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using MySql.Data.MySqlClient;
 
 namespace GestionForceDeVenteGSB
 {
-    class Secteur
+    public class Secteur
     {
         private int numSecteur;
         private String libelleSecteur;
+        private Region uneRegion;
 
-        public Secteur(int numSecteur, String libelleSecteur)
+        public Secteur(int numSecteur, String libelleSecteur, Region uneRegion)
         {
             this.numSecteur = numSecteur;
             this.libelleSecteur = libelleSecteur.ToUpper();
+            this.uneRegion = uneRegion;
         }
 
         public int getNumSecteur()
@@ -36,6 +39,15 @@ namespace GestionForceDeVenteGSB
             this.libelleSecteur = libelleSecteur;
         }
         
+        public Region getLaRegion()
+        {
+            return this.uneRegion;
+        }
+
+        public void setLaRegion(Region nouvelleRegion)
+        {
+            this.uneRegion = nouvelleRegion;
+        }
 
         public String toString()
         {

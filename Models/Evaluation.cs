@@ -1,13 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using MySql.Data.MySqlClient;
 
 namespace GestionForceDeVenteGSB
 {
-    class Evaluation
+    public class Evaluation
     {
         private String libelleEvaluation;
         private int nbPointEvaluation;
+
+        public string LibelleEvaluation { get => libelleEvaluation; set => libelleEvaluation = value; }
 
         public Evaluation(String libelleEvaluation, int nbPointEvaluation)
         {

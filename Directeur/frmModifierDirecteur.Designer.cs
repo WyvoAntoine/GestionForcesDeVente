@@ -1,7 +1,7 @@
 ﻿
 namespace GestionForceDeVenteGSB
 {
-    partial class frmModifierDirecteur
+    partial class frmModifierListeDirecteur
     {
         /// <summary>
         /// Required designer variable.
@@ -29,107 +29,218 @@ namespace GestionForceDeVenteGSB
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtAgeDirecteur = new System.Windows.Forms.TextBox();
-            this.lblAgeDirecteur = new System.Windows.Forms.Label();
-            this.cbbRegionDirecteur = new System.Windows.Forms.ComboBox();
-            this.btnCréerDirecteur = new System.Windows.Forms.Button();
-            this.lblNomDirecteur = new System.Windows.Forms.Label();
-            this.lblPrenomDirecteur = new System.Windows.Forms.Label();
-            this.txtPrenomDirecteur = new System.Windows.Forms.TextBox();
-            this.txtNomDirecteur = new System.Windows.Forms.TextBox();
-            this.lblRegionDirecteur = new System.Windows.Forms.Label();
+            this.txtModifierSituationFamiliale = new System.Windows.Forms.TextBox();
+            this.txtModifierGrade = new System.Windows.Forms.TextBox();
+            this.lblModifierSituationFamiliale = new System.Windows.Forms.Label();
+            this.lblModifierNbEnfants = new System.Windows.Forms.Label();
+            this.txtModifierNbEnfants = new System.Windows.Forms.TextBox();
+            this.lblModifierGrade = new System.Windows.Forms.Label();
+            this.dtpModifierEmbaucheD = new System.Windows.Forms.DateTimePicker();
+            this.lblModifierEmbauche = new System.Windows.Forms.Label();
+            this.lblModifierAnneeNaissD = new System.Windows.Forms.Label();
+            this.cbbModifierRegionD = new System.Windows.Forms.ComboBox();
+            this.btnModifierDirecteur = new System.Windows.Forms.Button();
+            this.lblModifierNomD = new System.Windows.Forms.Label();
+            this.lblModifierPrenomD = new System.Windows.Forms.Label();
+            this.txtModifierPrenomD = new System.Windows.Forms.TextBox();
+            this.txtModifierNomD = new System.Windows.Forms.TextBox();
+            this.lblModifierRegionD = new System.Windows.Forms.Label();
+            this.lblModifierListeD = new System.Windows.Forms.Label();
+            this.cbbModifierListeD = new System.Windows.Forms.ComboBox();
+            this.dtpModifierAnneeNaissD = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
-            // txtAgeDirecteur
+            // txtModifierSituationFamiliale
             // 
-            this.txtAgeDirecteur.Location = new System.Drawing.Point(288, 190);
-            this.txtAgeDirecteur.Name = "txtAgeDirecteur";
-            this.txtAgeDirecteur.Size = new System.Drawing.Size(150, 31);
-            this.txtAgeDirecteur.TabIndex = 17;
+            this.txtModifierSituationFamiliale.Location = new System.Drawing.Point(842, 292);
+            this.txtModifierSituationFamiliale.Name = "txtModifierSituationFamiliale";
+            this.txtModifierSituationFamiliale.Size = new System.Drawing.Size(212, 31);
+            this.txtModifierSituationFamiliale.TabIndex = 36;
             // 
-            // lblAgeDirecteur
+            // txtModifierGrade
             // 
-            this.lblAgeDirecteur.AutoSize = true;
-            this.lblAgeDirecteur.Location = new System.Drawing.Point(201, 196);
-            this.lblAgeDirecteur.Name = "lblAgeDirecteur";
-            this.lblAgeDirecteur.Size = new System.Drawing.Size(53, 25);
-            this.lblAgeDirecteur.TabIndex = 16;
-            this.lblAgeDirecteur.Text = "Age :";
+            this.txtModifierGrade.Location = new System.Drawing.Point(760, 171);
+            this.txtModifierGrade.Name = "txtModifierGrade";
+            this.txtModifierGrade.Size = new System.Drawing.Size(150, 31);
+            this.txtModifierGrade.TabIndex = 35;
             // 
-            // cbbRegionDirecteur
+            // lblModifierSituationFamiliale
             // 
-            this.cbbRegionDirecteur.FormattingEnabled = true;
-            this.cbbRegionDirecteur.Location = new System.Drawing.Point(288, 254);
-            this.cbbRegionDirecteur.Name = "cbbRegionDirecteur";
-            this.cbbRegionDirecteur.Size = new System.Drawing.Size(251, 33);
-            this.cbbRegionDirecteur.TabIndex = 14;
+            this.lblModifierSituationFamiliale.AutoSize = true;
+            this.lblModifierSituationFamiliale.Location = new System.Drawing.Point(675, 295);
+            this.lblModifierSituationFamiliale.Name = "lblModifierSituationFamiliale";
+            this.lblModifierSituationFamiliale.Size = new System.Drawing.Size(161, 25);
+            this.lblModifierSituationFamiliale.TabIndex = 34;
+            this.lblModifierSituationFamiliale.Text = "Situation familiale :";
             // 
-            // btnCréerDirecteur
+            // lblModifierNbEnfants
             // 
-            this.btnCréerDirecteur.Location = new System.Drawing.Point(488, 352);
-            this.btnCréerDirecteur.Name = "btnCréerDirecteur";
-            this.btnCréerDirecteur.Size = new System.Drawing.Size(112, 34);
-            this.btnCréerDirecteur.TabIndex = 15;
-            this.btnCréerDirecteur.Text = "Modifier";
-            this.btnCréerDirecteur.UseVisualStyleBackColor = true;
+            this.lblModifierNbEnfants.AutoSize = true;
+            this.lblModifierNbEnfants.Location = new System.Drawing.Point(675, 234);
+            this.lblModifierNbEnfants.Name = "lblModifierNbEnfants";
+            this.lblModifierNbEnfants.Size = new System.Drawing.Size(175, 25);
+            this.lblModifierNbEnfants.TabIndex = 32;
+            this.lblModifierNbEnfants.Text = "Nombre d\'enfant(s) :";
             // 
-            // lblNomDirecteur
+            // txtModifierNbEnfants
             // 
-            this.lblNomDirecteur.AutoSize = true;
-            this.lblNomDirecteur.Location = new System.Drawing.Point(201, 68);
-            this.lblNomDirecteur.Name = "lblNomDirecteur";
-            this.lblNomDirecteur.Size = new System.Drawing.Size(61, 25);
-            this.lblNomDirecteur.TabIndex = 9;
-            this.lblNomDirecteur.Text = "Nom :";
+            this.txtModifierNbEnfants.Location = new System.Drawing.Point(856, 231);
+            this.txtModifierNbEnfants.Name = "txtModifierNbEnfants";
+            this.txtModifierNbEnfants.Size = new System.Drawing.Size(150, 31);
+            this.txtModifierNbEnfants.TabIndex = 33;
             // 
-            // lblPrenomDirecteur
+            // lblModifierGrade
             // 
-            this.lblPrenomDirecteur.AutoSize = true;
-            this.lblPrenomDirecteur.Location = new System.Drawing.Point(201, 130);
-            this.lblPrenomDirecteur.Name = "lblPrenomDirecteur";
-            this.lblPrenomDirecteur.Size = new System.Drawing.Size(76, 25);
-            this.lblPrenomDirecteur.TabIndex = 11;
-            this.lblPrenomDirecteur.Text = "Pénom :";
+            this.lblModifierGrade.AutoSize = true;
+            this.lblModifierGrade.Location = new System.Drawing.Point(674, 169);
+            this.lblModifierGrade.Name = "lblModifierGrade";
+            this.lblModifierGrade.Size = new System.Drawing.Size(68, 25);
+            this.lblModifierGrade.TabIndex = 31;
+            this.lblModifierGrade.Text = "Grade :";
             // 
-            // txtPrenomDirecteur
+            // dtpModifierEmbaucheD
             // 
-            this.txtPrenomDirecteur.Location = new System.Drawing.Point(288, 127);
-            this.txtPrenomDirecteur.Name = "txtPrenomDirecteur";
-            this.txtPrenomDirecteur.Size = new System.Drawing.Size(150, 31);
-            this.txtPrenomDirecteur.TabIndex = 12;
+            this.dtpModifierEmbaucheD.CustomFormat = "yyyy-MM-dd";
+            this.dtpModifierEmbaucheD.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpModifierEmbaucheD.Location = new System.Drawing.Point(845, 103);
+            this.dtpModifierEmbaucheD.Name = "dtpModifierEmbaucheD";
+            this.dtpModifierEmbaucheD.Size = new System.Drawing.Size(161, 31);
+            this.dtpModifierEmbaucheD.TabIndex = 30;
+            this.dtpModifierEmbaucheD.Value = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
             // 
-            // txtNomDirecteur
+            // lblModifierEmbauche
             // 
-            this.txtNomDirecteur.Location = new System.Drawing.Point(288, 65);
-            this.txtNomDirecteur.Name = "txtNomDirecteur";
-            this.txtNomDirecteur.Size = new System.Drawing.Size(150, 31);
-            this.txtNomDirecteur.TabIndex = 10;
+            this.lblModifierEmbauche.AutoSize = true;
+            this.lblModifierEmbauche.Location = new System.Drawing.Point(672, 108);
+            this.lblModifierEmbauche.Name = "lblModifierEmbauche";
+            this.lblModifierEmbauche.Size = new System.Drawing.Size(163, 25);
+            this.lblModifierEmbauche.TabIndex = 29;
+            this.lblModifierEmbauche.Text = "Année Embauche  :";
             // 
-            // lblRegionDirecteur
+            // lblModifierAnneeNaissD
             // 
-            this.lblRegionDirecteur.AutoSize = true;
-            this.lblRegionDirecteur.Location = new System.Drawing.Point(201, 257);
-            this.lblRegionDirecteur.Name = "lblRegionDirecteur";
-            this.lblRegionDirecteur.Size = new System.Drawing.Size(76, 25);
-            this.lblRegionDirecteur.TabIndex = 13;
-            this.lblRegionDirecteur.Text = "Région :";
+            this.lblModifierAnneeNaissD.AutoSize = true;
+            this.lblModifierAnneeNaissD.Location = new System.Drawing.Point(105, 237);
+            this.lblModifierAnneeNaissD.Name = "lblModifierAnneeNaissD";
+            this.lblModifierAnneeNaissD.Size = new System.Drawing.Size(154, 25);
+            this.lblModifierAnneeNaissD.TabIndex = 27;
+            this.lblModifierAnneeNaissD.Text = "Année Naissance :";
             // 
-            // frmModifierDirecteur
+            // cbbModifierRegionD
+            // 
+            this.cbbModifierRegionD.FormattingEnabled = true;
+            this.cbbModifierRegionD.Location = new System.Drawing.Point(192, 295);
+            this.cbbModifierRegionD.MaxLength = 4;
+            this.cbbModifierRegionD.Name = "cbbModifierRegionD";
+            this.cbbModifierRegionD.Size = new System.Drawing.Size(355, 33);
+            this.cbbModifierRegionD.TabIndex = 25;
+            // 
+            // btnModifierDirecteur
+            // 
+            this.btnModifierDirecteur.Location = new System.Drawing.Point(522, 383);
+            this.btnModifierDirecteur.Name = "btnModifierDirecteur";
+            this.btnModifierDirecteur.Size = new System.Drawing.Size(112, 34);
+            this.btnModifierDirecteur.TabIndex = 26;
+            this.btnModifierDirecteur.Text = "Modifier";
+            this.btnModifierDirecteur.UseVisualStyleBackColor = true;
+            this.btnModifierDirecteur.Click += new System.EventHandler(this.btnModifierDirecteur_Click);
+            // 
+            // lblModifierNomD
+            // 
+            this.lblModifierNomD.AutoSize = true;
+            this.lblModifierNomD.Location = new System.Drawing.Point(105, 109);
+            this.lblModifierNomD.Name = "lblModifierNomD";
+            this.lblModifierNomD.Size = new System.Drawing.Size(61, 25);
+            this.lblModifierNomD.TabIndex = 20;
+            this.lblModifierNomD.Text = "Nom :";
+            // 
+            // lblModifierPrenomD
+            // 
+            this.lblModifierPrenomD.AutoSize = true;
+            this.lblModifierPrenomD.Location = new System.Drawing.Point(105, 171);
+            this.lblModifierPrenomD.Name = "lblModifierPrenomD";
+            this.lblModifierPrenomD.Size = new System.Drawing.Size(76, 25);
+            this.lblModifierPrenomD.TabIndex = 22;
+            this.lblModifierPrenomD.Text = "Pénom :";
+            // 
+            // txtModifierPrenomD
+            // 
+            this.txtModifierPrenomD.Location = new System.Drawing.Point(192, 168);
+            this.txtModifierPrenomD.Name = "txtModifierPrenomD";
+            this.txtModifierPrenomD.Size = new System.Drawing.Size(150, 31);
+            this.txtModifierPrenomD.TabIndex = 23;
+            // 
+            // txtModifierNomD
+            // 
+            this.txtModifierNomD.Location = new System.Drawing.Point(192, 106);
+            this.txtModifierNomD.Name = "txtModifierNomD";
+            this.txtModifierNomD.Size = new System.Drawing.Size(150, 31);
+            this.txtModifierNomD.TabIndex = 21;
+            // 
+            // lblModifierRegionD
+            // 
+            this.lblModifierRegionD.AutoSize = true;
+            this.lblModifierRegionD.Location = new System.Drawing.Point(105, 298);
+            this.lblModifierRegionD.Name = "lblModifierRegionD";
+            this.lblModifierRegionD.Size = new System.Drawing.Size(76, 25);
+            this.lblModifierRegionD.TabIndex = 24;
+            this.lblModifierRegionD.Text = "Région :";
+            // 
+            // lblModifierListeD
+            // 
+            this.lblModifierListeD.AutoSize = true;
+            this.lblModifierListeD.Location = new System.Drawing.Point(350, 24);
+            this.lblModifierListeD.Name = "lblModifierListeD";
+            this.lblModifierListeD.Size = new System.Drawing.Size(150, 25);
+            this.lblModifierListeD.TabIndex = 37;
+            this.lblModifierListeD.Text = "Liste Directeur(s) :";
+            // 
+            // cbbModifierListeD
+            // 
+            this.cbbModifierListeD.FormattingEnabled = true;
+            this.cbbModifierListeD.Location = new System.Drawing.Point(533, 16);
+            this.cbbModifierListeD.Name = "cbbModifierListeD";
+            this.cbbModifierListeD.Size = new System.Drawing.Size(303, 33);
+            this.cbbModifierListeD.TabIndex = 38;
+            this.cbbModifierListeD.SelectedIndexChanged += new System.EventHandler(this.cbbModifierListeDirecteur_SelectedIndexChanged);
+            // 
+            // dtpModifierAnneeNaissD
+            // 
+            this.dtpModifierAnneeNaissD.CustomFormat = "yyyy-MM-dd";
+            this.dtpModifierAnneeNaissD.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpModifierAnneeNaissD.Location = new System.Drawing.Point(278, 232);
+            this.dtpModifierAnneeNaissD.Name = "dtpModifierAnneeNaissD";
+            this.dtpModifierAnneeNaissD.Size = new System.Drawing.Size(165, 31);
+            this.dtpModifierAnneeNaissD.TabIndex = 28;
+            this.dtpModifierAnneeNaissD.Value = new System.DateTime(2022, 3, 31, 0, 0, 0, 0);
+            // 
+            // frmModifierListeDirecteur
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.txtAgeDirecteur);
-            this.Controls.Add(this.lblAgeDirecteur);
-            this.Controls.Add(this.cbbRegionDirecteur);
-            this.Controls.Add(this.btnCréerDirecteur);
-            this.Controls.Add(this.lblNomDirecteur);
-            this.Controls.Add(this.lblPrenomDirecteur);
-            this.Controls.Add(this.txtPrenomDirecteur);
-            this.Controls.Add(this.txtNomDirecteur);
-            this.Controls.Add(this.lblRegionDirecteur);
-            this.Name = "frmModifierDirecteur";
+            this.ClientSize = new System.Drawing.Size(1256, 481);
+            this.Controls.Add(this.cbbModifierListeD);
+            this.Controls.Add(this.lblModifierListeD);
+            this.Controls.Add(this.txtModifierSituationFamiliale);
+            this.Controls.Add(this.txtModifierGrade);
+            this.Controls.Add(this.lblModifierSituationFamiliale);
+            this.Controls.Add(this.lblModifierNbEnfants);
+            this.Controls.Add(this.txtModifierNbEnfants);
+            this.Controls.Add(this.lblModifierGrade);
+            this.Controls.Add(this.dtpModifierEmbaucheD);
+            this.Controls.Add(this.lblModifierEmbauche);
+            this.Controls.Add(this.dtpModifierAnneeNaissD);
+            this.Controls.Add(this.lblModifierAnneeNaissD);
+            this.Controls.Add(this.cbbModifierRegionD);
+            this.Controls.Add(this.btnModifierDirecteur);
+            this.Controls.Add(this.lblModifierNomD);
+            this.Controls.Add(this.lblModifierPrenomD);
+            this.Controls.Add(this.txtModifierPrenomD);
+            this.Controls.Add(this.txtModifierNomD);
+            this.Controls.Add(this.lblModifierRegionD);
+            this.Name = "frmModifierListeDirecteur";
             this.Text = "Modifier le directeur";
+            this.Load += new System.EventHandler(this.frmModifierDirecteur_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -137,14 +248,24 @@ namespace GestionForceDeVenteGSB
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtAgeDirecteur;
-        private System.Windows.Forms.Label lblAgeDirecteur;
-        private System.Windows.Forms.ComboBox cbbRegionDirecteur;
-        private System.Windows.Forms.Button btnCréerDirecteur;
-        private System.Windows.Forms.Label lblNomDirecteur;
-        private System.Windows.Forms.Label lblPrenomDirecteur;
-        private System.Windows.Forms.TextBox txtPrenomDirecteur;
-        private System.Windows.Forms.TextBox txtNomDirecteur;
-        private System.Windows.Forms.Label lblRegionDirecteur;
+        private System.Windows.Forms.TextBox txtModifierSituationFamiliale;
+        private System.Windows.Forms.TextBox txtModifierGrade;
+        private System.Windows.Forms.Label lblModifierSituationFamiliale;
+        private System.Windows.Forms.Label lblModifierNbEnfants;
+        private System.Windows.Forms.TextBox txtModifierNbEnfants;
+        private System.Windows.Forms.Label lblModifierGrade;
+        private System.Windows.Forms.DateTimePicker dtpModifierEmbaucheD;
+        private System.Windows.Forms.Label lblModifierEmbauche;
+        private System.Windows.Forms.Label lblModifierAnneeNaissD;
+        private System.Windows.Forms.ComboBox cbbModifierRegionD;
+        private System.Windows.Forms.Button btnModifierDirecteur;
+        private System.Windows.Forms.Label lblModifierNomD;
+        private System.Windows.Forms.Label lblModifierPrenomD;
+        private System.Windows.Forms.TextBox txtModifierPrenomD;
+        private System.Windows.Forms.TextBox txtModifierNomD;
+        private System.Windows.Forms.Label lblModifierRegionD;
+        private System.Windows.Forms.Label lblModifierListeD;
+        private System.Windows.Forms.ComboBox cbbModifierListeD;
+        private System.Windows.Forms.DateTimePicker dtpModifierAnneeNaissD;
     }
 }

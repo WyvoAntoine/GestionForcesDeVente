@@ -15,5 +15,14 @@ C:\Users\antoi\GestionForceDeVenteGSB\obj\Debug\netcoreapp3.1\GestionForceDeVent
 C:\Users\antoi\GestionForceDeVenteGSB\obj\Debug\netcoreapp3.1\GestionForceDeVenteGSB.pdb
 C:\Users\antoi\GestionForceDeVenteGSB\obj\Debug\netcoreapp3.1\GestionForceDeVenteGSB.genruntimeconfig.cache
 C:\Users\antoi\GestionForceDeVenteGSB\obj\Debug\netcoreapp3.1\GestionForceDeVenteGSB.frmCreerDirecteur.resources
-C:\Users\antoi\GestionForceDeVenteGSB\obj\Debug\netcoreapp3.1\GestionForceDeVenteGSB.Directeur.frmAfficherDirecteur.resources
-C:\Users\antoi\GestionForceDeVenteGSB\obj\Debug\netcoreapp3.1\GestionForceDeVenteGSB.frmModifierDirecteur.resources
+C:\Users\antoi\GestionForceDeVenteGSB\obj\Debug\netcoreapp3.1\GestionForceDeVenteGSB.frmAfficherDirecteur.resources
+C:\Users\antoi\GestionForceDeVenteGSB\obj\Debug\netcoreapp3.1\GestionForceDeVenteGSB.Properties.Resources.resources
+C:\Users\antoi\GestionForceDeVenteGSB\obj\Debug\netcoreapp3.1\GestionForceDeVenteGSB.frmSupprimerDirecteur.resources
+C:\Users\antoi\GestionForceDeVenteGSB\obj\Debug\netcoreapp3.1\GestionForceDeVenteGSB.frmCreerVisiteurs.resources
+C:\Users\antoi\GestionForceDeVenteGSB\obj\Debug\netcoreapp3.1\GestionForceDeVenteGSB.frmModifierVisiteurs.resources
+C:\Users\antoi\GestionForceDeVenteGSB\obj\Debug\netcoreapp3.1\GestionForceDeVenteGSB.frmSupprimerVisiteurs.resources
+C:\Users\antoi\GestionForceDeVenteGSB\obj\Debug\netcoreapp3.1\GestionForceDeVenteGSB.frmAfficherVisiteurs.resources
+C:\Users\antoi\GestionForceDeVenteGSB\obj\Debug\netcoreapp3.1\GestionForceDeVenteGSB.frmCreerEvaluation.resources
+C:\Users\antoi\GestionForceDeVenteGSB\obj\Debug\netcoreapp3.1\GestionForceDeVenteGSB.frmAjouteEvaluationVisiteurs.resources
+C:\Users\antoi\GestionForceDeVenteGSB\bin\Debug\netcoreapp3.1\MySql.Data.dll
+C:\Users\antoi\GestionForceDeVenteGSB\obj\Debug\netcoreapp3.1\GestionForceDeVenteGSB.frmModifierListeDirecteur.resources

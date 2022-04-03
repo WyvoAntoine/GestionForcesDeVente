@@ -4,13 +4,34 @@
     <Compile Update="Accueil\frmAccueil.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Directeur\frmAfficherDirecteur.cs">
+    <Compile Update="Evaluation\frmCreerEvaluation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Visiteurs\frmAjouteEvaluationVisiteurs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Visiteurs\frmAfficherVisiteurs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Visiteurs\frmModifierVisiteurs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Visiteurs\frmSupprimerVisiteurs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Visiteurs\frmCreerVisiteurs.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Directeur\frmCreerDirecteur.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Directeur\frmModifierDirecteur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Directeur\frmAfficherDirecteur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Directeur\frmSupprimerDirecteur.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
